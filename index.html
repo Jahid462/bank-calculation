@@ -7,16 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="text-center mt-10">
-        <h1 class="font-bold text-4xl">Please Login Your Bank Account</h1>
-    </header>
     <main>
-        <section class="text-center mt-20 bg-green-600 py-10">
-            <h2 class="text-white text-3xl">Login to your account</h2>
-            <div class="w-4/12 mx-auto mt-6">
-                <input class="w-11/12 block mx-auto px-4 py-2 rounded-lg outline-none" type="email" name="" id="email-field" placeholder="Type Your Email">
-                <input class="w-11/12 block mx-auto my-6 px-4 py-2 rounded-lg outline-none" type="password" name="" id="password-field" placeholder="Type Your Password">
-                <button class="text-white block mx-auto bg-lime-900 py-3 w-11/12 text-xl font-bold rounded-xl">Login</button>
+        <section class="bg-orange-800 w-11/12 md:w-5/12 mx-auto text-center mt-20 py-20 rounded-3xl">
+            <h2 class="text-white text-4xl font-bold mb-14">Login to Your Bank<br>Account</h2>
+            <div class="mt-6 w-9/12 mx-auto py-3">
+                <input id="email-field" class="w-11/12 block mx-auto px-4 py-2 rounded-lg outline-none" type="email" name="" placeholder="Type Your Email" required>
+                <input id="password-field" class="w-11/12 block mx-auto my-6 px-4 py-2 rounded-lg outline-none" type="password" name="" placeholder="Type Your Password" required>
+                <button id="submit-btn" class="text-white block mx-auto bg-orange-600 py-3 w-11/12 text-xl font-bold rounded-xl hover:bg-orange-700">Login</button>
             </div>
         </section>
     </main>
